@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Taewoo Jeong
+title: tw3wt
 
 # Name pronunciation (optional)
 name_pronunciation: Taewoo Jeong
