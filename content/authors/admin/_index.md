@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 정태우
+title: Taewoo Jeong
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Taewoo Jeong
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jeong
+last_name: Taewoo
 
 # Status emoji
 status:
