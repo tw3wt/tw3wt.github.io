@@ -33,18 +33,10 @@ profiles:
   - icon: at-symbol
     url: 'mailto:taewoo136@gmail.com'
     label: E-mail Me
-  '''- icon: brands/x
-    url: https://twitter.com/GetResearchDev'''
   - icon: brands/instagram
     url: https://www.instagram.com/wjdtao_0612/
   - icon: brands/github
     url: https://github.com/tw3wt
-  '''- icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/'''
 
 interests:
   - Artificial Intelligence
@@ -53,9 +45,9 @@ interests:
 
 education:
   - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    institution: JBNU
+    date_start: 2022-03-02
+    date_end: 2027-12-31
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
