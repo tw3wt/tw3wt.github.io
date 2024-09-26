@@ -41,7 +41,7 @@ profiles:
 interests:
   - Artificial Intelligence
   - Computational Linguistics
-  - Information Retrieval
+  - Game Development
 
 education:
   - area: PhD Artificial Intelligence
