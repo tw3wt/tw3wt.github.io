@@ -6,7 +6,6 @@
 main:
   - name: Bio
     url: /
-    identifier: bio
     weight: 10
   - name: Papers
     url: /#papers
@@ -26,3 +25,6 @@ main:
   - name: Teaching
     url: teaching/
     weight: 40
+  - name: Test
+    identifier: test
+    weight: 13
