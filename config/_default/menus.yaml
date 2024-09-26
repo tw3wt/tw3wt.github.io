@@ -34,5 +34,5 @@ main:
     weight: 10
   - name: Sub2
     identifier: sub2
-    parent: test
+    parent: Test
     weight: 11
