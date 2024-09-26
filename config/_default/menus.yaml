@@ -30,9 +30,9 @@ main:
     weight: 41
   - name: Sub1
     identifier: sub1
-    parent: Test
+    parent: test
     weight: 10
   - name: Sub2
     identifier: sub2
-    parent: Test
+    parent: test
     weight: 11
