@@ -27,4 +27,10 @@ main:
     weight: 40
   - name: Test
     identifier: test
-    weight: 13
+    weight: 41
+  - name: Sub1
+    identifier: sub1
+    weight: 10
+  - name: Sub2
+    identifier: sub2
+    weight: 11
