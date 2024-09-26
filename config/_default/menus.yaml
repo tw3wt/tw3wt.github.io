@@ -6,6 +6,7 @@
 main:
   - name: Bio
     url: /
+    identifier: bio
     weight: 10
   - name: Papers
     url: /#papers
