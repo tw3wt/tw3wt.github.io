@@ -3,7 +3,7 @@
 title: Taewoo Jeong
 
 # Name pronunciation (optional)
-name_pronunciation: ' 태우 정 '
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Jeong
