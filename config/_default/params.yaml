@@ -7,8 +7,6 @@
 appearance:
   theme_night: minimal
   theme_day: minimal
-  font: native
-  font_size: L
 
 # SEO
 marketing:
