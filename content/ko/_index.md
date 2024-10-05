@@ -59,7 +59,7 @@ sections:
     design:
       view: citation
   - block: collection
-    id: skill
+    id: experience
     content:
       title: Recent & Upcoming Talks
       filters:
