@@ -45,6 +45,11 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+    links:
+    - icon_pack: fab
+      icon: twitter
+      name: Follow
+      url: 'https://twitter.com/Twitter'
   - block: collection
     id: papers
     content:
