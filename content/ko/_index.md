@@ -48,7 +48,7 @@ sections:
     design:
       view: card
       columns: '1'
-  - block: markdown
+  - block: contact
     id: contact
     content:
       title: "Get in Touch"
@@ -58,8 +58,8 @@ sections:
         to: "youremail@example.com"
       # 지도 설정
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'
+        latitude: '35.84603'
+        longitude: '127.1343549'
     design:
       view: compact
   - block: collection

@@ -54,17 +54,11 @@ locale:
 
 # Site features
 features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
   map:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
-
-links:
-  - icon_pack: fab
-    icon: twitter
-    name: Follow
-    url: 'https://twitter.com/Twitter'
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
