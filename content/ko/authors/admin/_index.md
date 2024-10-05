@@ -6,8 +6,8 @@ title: Taewoo Jeong
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Jeong
-last_name: Taewoo
+first_name: 정
+last_name: ㅌ태우
 
 # Status emoji
 status:
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: JBNU Student
+role: 전북대학교 재학생
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: CSAI
+  - name: 컴퓨터 인공지능 학부
     url: https://csai.jbnu.ac.kr/csai/index.do
 
 # Social network links
