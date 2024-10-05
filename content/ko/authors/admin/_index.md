@@ -43,6 +43,10 @@ interests:
   - Computational Linguistics
   - Game Development
 
+coordinates:
+        latitude: '35.8460001'
+        longitude: '127.1343701'
+        
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
