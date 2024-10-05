@@ -6,26 +6,29 @@
 main:
   - name: Bio
     url: /
-    weight: 10
+    weight: 100
   - name: Experience
     url: /#experience
-    weight: 11
+    weight: 110
   - name: future_goal
     url: /#future_goal
-    weight: 13
+    weight: 130
   - name: Projects
     url: projects/
-    weight: 30
+    weight: 300
   - name: Skill
     identifier: skill
-    weight: 41
+    weight: 410
+  - name: Contact
+    url: contact/
+    weight: 700
   - name: Framework
     identifier: framework
     parent: skill
     url: framework/
-    weight: 10
+    weight: 100
   - name: Programming_language
     identifier: programming_language
     parent: skill
     url: programming_language/
-    weight: 11
+    weight: 110
