@@ -22,7 +22,6 @@ sections:
         latitude: '35.8460001'
         longitude: '127.1343701'
     design:
-      view: card
       css_class: dark
       background:
         color: black
@@ -50,6 +49,7 @@ sections:
         name: Follow
         url: 'https://twitter.com/Twitter'
     design:
+      view: card
       columns: '1'
   - block: collection
     id: papers
