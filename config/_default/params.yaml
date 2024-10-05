@@ -35,7 +35,7 @@ header:
     show_search: true
     show_day_night: true
     logo:
-      text: "Your Name"
+      text: "Taewoo's Web"
 
 # Site footer
 footer:
