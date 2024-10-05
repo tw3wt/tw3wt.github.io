@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Taewoo Jeong
+title: 정 태우
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: JBNU Student
+role: 전북대학교 재학생
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: CSAI
+  - name: 컴퓨터 인공지능 학부
     url: https://csai.jbnu.ac.kr/csai/index.do
 
 # Social network links
@@ -43,38 +43,10 @@ interests:
   - Computational Linguistics
   - Game Development
 
-education:
-  - area: PhD Artificial Intelligence
-    institution: JBNU
-    date_start: 2022-03-02
-    date_end: 2027-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+coordinates:
+        latitude: '35.8460001'
+        longitude: '127.1343701'
+        
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
@@ -175,4 +147,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+전북대학교 컴퓨터 인공지능 학부에 재학중인 3학년 정태우입니다. 게임 및 인공지능 분야에 관심을 가지고 있습니다. 관심분야와 마찬가지로 게임 개발, 인공지능 관련 진로를 희망하고 있습니다. 개발 관련 프로젝트 경험으로는 리눅스 프로그래밍, 모바일 프로그래밍, 데이터베이스 수업을 통한 팀 프로젝트를 진행했습니다. 
