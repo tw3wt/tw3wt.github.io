@@ -22,7 +22,7 @@ sections:
               <li>Artificial Intelligence</li>
               <li>Game Development</li>
             </ul>
-            <p>Contact: ksl@jbnu.ac.kr</p>
+            <p>Contact: twtw136@jbnu.ac.kr</p>
             <div>
               <img src="avatar.jpg" alt="Profile Image" style="border-radius: 10px; width: 150px;">
             </div>
