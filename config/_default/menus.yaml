@@ -9,19 +9,19 @@ main:
     weight: 100
   - name: Experience
     url: /#experience
-    weight: 110
+    weight: 150
   - name: future_goal
     url: /#future_goal
-    weight: 130
+    weight: 200
   - name: Projects
     url: projects/
-    weight: 300
+    weight: 250
   - name: Skill
     identifier: skill
-    weight: 410
+    weight: 300
   - name: Contact
     url: contact/
-    weight: 700
+    weight: 400
   - name: Framework
     identifier: framework
     parent: skill
@@ -31,4 +31,4 @@ main:
     identifier: programming_language
     parent: skill
     url: programming_language/
-    weight: 110
+    weight: 200

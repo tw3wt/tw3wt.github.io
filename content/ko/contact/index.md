@@ -21,5 +21,5 @@ sections:
         latitude: '35.84603'
         longitude: '127.1343549'
     design:
-      columns: compact
+      columns: '1'
 ---
