@@ -1,20 +1,24 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ""
+title: 정 태우
 date: 2022-10-24
 type: landing
-
-design:
-  # Default section spacing
-  spacing: "6rem"
 
 sections:
   - block: markdown
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      title: 정 태우
+      text: |-
+        **Role**: 전북대학교 재학생  
+        **Affiliation**: [컴퓨터 인공지능 학부](https://csai.jbnu.ac.kr/csai/index.do)  
+        **Interests**: Artificial Intelligence, Computational Linguistics, Game Development  
+
+        **Contact**: [Email](mailto:taewoo136@gmail.com)  
+        **GitHub**: [tw3wt](https://github.com/tw3wt)  
+        **Instagram**: [wjdtao_0612](https://www.instagram.com/wjdtao_0612/)  
+        
+        ## About Me
+        전북대학교 컴퓨터 인공지능 학부에 재학 중인 3학년 정태우입니다. 게임 및 인공지능 분야에 관심을 가지고 있습니다.
+
       button:
         text: Download pdf file
         url: uploads/cloud.pdf
@@ -23,13 +27,9 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
           size: cover
           position: center
-          parallax: false
   
   - block: collection
     content:
