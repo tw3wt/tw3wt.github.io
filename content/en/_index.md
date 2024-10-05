@@ -14,9 +14,9 @@ sections:
       title: | 
         <span style='font-size:150%; font-weight:bold; color: black;'>About Me</span>
       text: | 
-        <div style="display: flex; align-items: center; background-color: #123456; padding: 20px; border-radius: 10px;">
+        <div style="display: flex; align-items: center; padding: 20px; border-radius: 10px;">
           <div style="text-align: center; margin-right: 20px;">
-            <img src="/path-to-image.png" alt="Profile Image" style="border-radius: 50%; width: 150px;">
+            <img src="avatar.jpg" alt="Profile Image" style="border-radius: 50%; width: 150px;">
             <h2>Taewoo Jeong</h2>
             <p>JBNU CSAI</p>
             <p>https://csai.jbnu.ac.kr/csai/index.do</p>
