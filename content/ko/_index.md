@@ -50,6 +50,7 @@ sections:
         url: 'https://twitter.com/Twitter'
     design:
       view: card
+      css_class: dark
       columns: '1'
   - block: collection
     id: papers
