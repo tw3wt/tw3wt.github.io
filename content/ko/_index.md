@@ -48,7 +48,7 @@ sections:
     design:
       view: card
       columns: '1'
-  - block: contact
+  - block: collection
     id: contact
     content:
       title: "Get in Touch"
