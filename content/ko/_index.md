@@ -15,10 +15,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/cloud_subject.pdf
       coordinates:
         latitude: '35.8460001'
         longitude: '127.1343701'
