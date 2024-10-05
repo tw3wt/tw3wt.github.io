@@ -7,7 +7,7 @@ type: landing
 
 sections:
   
-- block: about.bio
+- block: markdown
   content:
     title: Contact
     text: |-
