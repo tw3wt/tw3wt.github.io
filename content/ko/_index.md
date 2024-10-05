@@ -32,9 +32,6 @@ sections:
           parallax: false
   - block: markdown
     content:
-      coordinates:
-        latitude: '35.8460001'
-        longitude: '127.1343701'
       title: '📚 My Research'
       subtitle: ''
       text: |-
@@ -51,17 +48,22 @@ sections:
     design:
       view: card
       columns: '1'
-  - block: collection
-    id: experience
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: '2'
+  - block: contact
+  id: contact
+  content:
+    title: "Get in Touch"
+    subtitle: "Feel free to reach out via email or visit me at the following address."
+    autolink: true
+    # Contact form settings
+    form:
+      provider: netlify  # Netlify 또는 다른 폼 제공자 사용 가능
+      to: "youremail@example.com"
+    # 지도 설정
+    coordinates:
+      latitude: '37.4275'
+      longitude: '-122.1697'
+  design:
+    view: compact
   - block: collection
     content:
       title: Recent Publications
