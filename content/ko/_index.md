@@ -48,20 +48,6 @@ sections:
     design:
       view: card
       columns: '1'
-  - block: contact
-    id: contact
-    content:
-      title: "Get in Touch"
-      # Contact form settings
-      form:
-        provider: netlify  # Netlify 또는 다른 폼 제공자 사용 가능
-        to: "youremail@example.com"
-      # 지도 설정
-      coordinates:
-        latitude: '35.84603'
-        longitude: '127.1343549'
-    design:
-      view: compact
   - block: collection
     content:
       title: Recent Publications
