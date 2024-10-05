@@ -22,8 +22,10 @@ main:
   - name: Framework
     identifier: framework
     parent: skill
+    url: framework/
     weight: 10
   - name: Programming_lang
     identifier: programming_lang
-    parent: test
+    parent: skill
+    url: programming_lang/
     weight: 11
