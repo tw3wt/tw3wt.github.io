@@ -11,6 +11,9 @@ design:
 sections:
   - block: resume-biography-3
     content:
+      coordinates:
+        latitude: '35.8460001'
+        longitude: '127.1343701'
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
@@ -18,9 +21,6 @@ sections:
       button:
         text: Download pdf file
         url: uploads/cloud.pdf
-      coordinates:
-        latitude: '35.8460001'
-        longitude: '127.1343701'
     design:
       css_class: dark
       background:
