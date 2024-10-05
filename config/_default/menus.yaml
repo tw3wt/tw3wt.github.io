@@ -7,32 +7,23 @@ main:
   - name: Bio
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
-  - name: Talks
-    url: /#talks
-    weight: 12
-  - name: News
-    url: /#news
-    weight: 13
   - name: Experience
-    url: experience/
-    weight: 20
+    url: /#experience
+    weight: 11
+  - name: future goal
+    url: /#future goal
+    weight: 13
   - name: Projects
     url: projects/
     weight: 30
-  - name: Teaching
-    url: teaching/
-    weight: 40
-  - name: Test
-    identifier: test
+  - name: Skill
+    identifier: skill
     weight: 41
-  - name: Sub1
-    identifier: sub1
-    parent: test
+  - name: Framework
+    identifier: framework
+    parent: skill
     weight: 10
-  - name: Sub2
-    identifier: sub2
+  - name: Programming_lang
+    identifier: programming_lang
     parent: test
     weight: 11

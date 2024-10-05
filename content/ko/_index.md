@@ -52,7 +52,7 @@ sections:
       view: card
       columns: '1'
   - block: collection
-    id: papers
+    id: experience
     content:
       title: Featured Publications
       filters:
@@ -73,7 +73,7 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: skill
     content:
       title: Recent & Upcoming Talks
       filters:
@@ -83,7 +83,7 @@ sections:
       view: article-grid
       columns: 1
   - block: collection
-    id: news
+    id: future goal
     content:
       title: Recent News
       subtitle: ''
