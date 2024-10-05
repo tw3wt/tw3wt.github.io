@@ -30,24 +30,80 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
+  - block: slider
     content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+      slides:
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
-      links:
-      - icon_pack: fab
-        icon: twitter
-        name: Follow
-        url: 'https://twitter.com/Twitter'
+      - title: <span style="font-size:70%">Recruit</span>
+        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+        align: center
+        background:
+          image:
+            filename: recruitment.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+        link:
+          icon: user
+          icon_pack: fas
+          text: <span style="font-size:60%">Join Us</span>
+          text-color: '#000'
+          url: contact
+
+      - title: <span style="font-size:70%">AI</span>
+        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+        align: center
+        background:
+          image:
+            filename: Ai.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Healthcare</span>
+        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+        align: center
+        background:
+          image:
+            filename: healthcare.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Mathematics</span>
+        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+        align: center
+        background:
+          image:
+            filename: mathematics.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">Development</span>
+        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
+        align: center
+        background:
+          image:
+            filename: development.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
     design:
-      view: card
-      columns: '1'
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: '350px'
+      slide_width: '100px'
+      is_fullscreen: false
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 3000
   - block: collection
     content:
       title: Recent Publications
@@ -61,7 +117,7 @@ sections:
   - block: collection
     id: experience
     content:
-      title: Recent & Upcoming Talks
+      title: card
       filters:
         folders:
           - event
