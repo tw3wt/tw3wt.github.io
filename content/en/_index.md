@@ -1,8 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-useBootstrap: false
-useTailwind: true
 date: 2022-10-24
 type: landing
 
@@ -32,26 +30,12 @@ sections:
           size: cover
           position: center
           parallax: false
-  
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
   - block: collection
     id: experience
     content:
-      title: card
-      filters:
-        folders:
-          - event
+      text: "111"
     design:
-      view: article-grid
+      view: community/custom_card_1
       columns: 1
   - block: collection
     id: future_goal
