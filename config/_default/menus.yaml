@@ -27,5 +27,5 @@ main:
   - name: Programming_language
     identifier: programming_language
     parent: skill
-    url: programming_lang/
+    url: programming_language/
     weight: 11
