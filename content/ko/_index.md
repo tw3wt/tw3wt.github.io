@@ -49,21 +49,21 @@ sections:
       view: card
       columns: '1'
   - block: contact
-  id: contact
-  content:
-    title: "Get in Touch"
-    subtitle: "Feel free to reach out via email or visit me at the following address."
-    autolink: true
-    # Contact form settings
-    form:
-      provider: netlify  # Netlify 또는 다른 폼 제공자 사용 가능
-      to: "youremail@example.com"
-    # 지도 설정
-    coordinates:
-      latitude: '37.4275'
-      longitude: '-122.1697'
-  design:
-    view: compact
+    id: contact
+    content:
+      title: "Get in Touch"
+      subtitle: "Feel free to reach out via email or visit me at the following address."
+      autolink: true
+      # Contact form settings
+      form:
+        provider: netlify  # Netlify 또는 다른 폼 제공자 사용 가능
+        to: "youremail@example.com"
+      # 지도 설정
+      coordinates:
+        latitude: '37.4275'
+        longitude: '-122.1697'
+    design:
+      view: compact
   - block: collection
     content:
       title: Recent Publications
