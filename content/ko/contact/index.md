@@ -6,7 +6,7 @@ type: landing
 
 sections:
   
-- block: contact
+- block: hero
   content:
     title: Contact
     text: |-
