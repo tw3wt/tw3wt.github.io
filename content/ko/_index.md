@@ -50,7 +50,6 @@ sections:
         url: 'https://twitter.com/Twitter'
     design:
       view: card
-      css_class: dark
       columns: '1'
   - block: collection
     id: papers
@@ -62,7 +61,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: '2'
   - block: collection
     content:
       title: Recent Publications
