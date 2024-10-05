@@ -43,13 +43,13 @@ sections:
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
         
         Please reach out to collaborate 😃
+      links:
+      - icon_pack: fab
+        icon: twitter
+        name: Follow
+        url: 'https://twitter.com/Twitter'
     design:
       columns: '1'
-    links:
-    - icon_pack: fab
-      icon: twitter
-      name: Follow
-      url: 'https://twitter.com/Twitter'
   - block: collection
     id: papers
     content:
