@@ -16,8 +16,8 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
-        url: uploads/cloud_subject.pdf
+        text: Download pdf
+        url: uploads/cloud.pdf
       coordinates:
         latitude: '35.8460001'
         longitude: '127.1343701'
