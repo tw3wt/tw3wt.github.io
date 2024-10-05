@@ -24,3 +24,5 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  - source: hugo-blox/blox/community/contact.html
+    target: layouts/partials/blox/community/contact.html
