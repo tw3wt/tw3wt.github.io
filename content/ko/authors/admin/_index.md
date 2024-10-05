@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Taewoo Jeong
+title: 정 태우
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: 정
-last_name: ㅌ태우
+first_name: Jeong
+last_name: Taewoo
 
 # Status emoji
 status:
