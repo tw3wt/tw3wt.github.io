@@ -16,7 +16,7 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download pdf
+        text: Download pdf file
         url: uploads/cloud.pdf
       coordinates:
         latitude: '35.8460001'
