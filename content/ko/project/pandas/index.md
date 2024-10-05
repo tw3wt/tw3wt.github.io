@@ -1,7 +1,7 @@
 ---
-title: Pandas
-date: 2023-10-26
-external_link: https://github.com/pandas-dev/pandas
+title: Mobile_project
+date: 2023-12-16
+external_link: https://github.com/tw3wt/JBNU_BILL_GATES
 tags:
   - Hugo
   - Wowchemy
