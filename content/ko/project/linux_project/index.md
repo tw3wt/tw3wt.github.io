@@ -1,6 +1,6 @@
 ---
 title: Linux_project
-date: 2023-10-26
+date: 2023-06-13
 external_link: https://github.com/tw3wt/Linux_kiosk_team15
 tags:
   - Hugo
