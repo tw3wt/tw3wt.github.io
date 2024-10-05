@@ -48,12 +48,10 @@ sections:
     design:
       view: card
       columns: '1'
-  - block: collection
+  - block: markdown
     id: contact
     content:
       title: "Get in Touch"
-      subtitle: "Feel free to reach out via email or visit me at the following address."
-      autolink: true
       # Contact form settings
       form:
         provider: netlify  # Netlify 또는 다른 폼 제공자 사용 가능
