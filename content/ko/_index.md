@@ -83,7 +83,7 @@ sections:
       view: article-grid
       columns: 1
   - block: collection
-    id: future goal
+    id: future_goal
     content:
       title: Recent News
       subtitle: ''

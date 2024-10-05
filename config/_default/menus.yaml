@@ -10,8 +10,8 @@ main:
   - name: Experience
     url: /#experience
     weight: 11
-  - name: future goal
-    url: /#future goal
+  - name: future_goal
+    url: /#future_goal
     weight: 13
   - name: Projects
     url: projects/
@@ -24,8 +24,8 @@ main:
     parent: skill
     url: framework/
     weight: 10
-  - name: Programming_lang
-    identifier: programming_lang
+  - name: Programming_language
+    identifier: programming_language
     parent: skill
     url: programming_lang/
     weight: 11
