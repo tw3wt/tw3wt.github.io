@@ -6,8 +6,8 @@ title: Taewoo Jeong
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Jeong
-last_name: Taewoo
+first_name: 정
+last_name: 태우
 
 # Status emoji
 status:
