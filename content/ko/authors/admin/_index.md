@@ -7,7 +7,7 @@ name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Jeong
-last_name: Taew00
+last_name: Taewoo
 
 # Status emoji
 status:
