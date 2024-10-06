@@ -109,11 +109,11 @@ sections:
     content:
       title: Future Goal
       items:
-        - title: "Goal 1"
+        - name: "Goal 1"
           text: "Become a game developer."
-        - title: "Goal 2"
+        - name: "Goal 2"
           text: "Master AI technologies."
-        - title: "Goal 3"
+        - name: "Goal 3"
           text: "Build my own game."
     design:
       # Choose a layout view
