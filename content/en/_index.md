@@ -44,7 +44,7 @@ sections:
       items:
         - name: C
           icon: 
-          icon_pack: fas
+          icon_pack: fab
         - name: CS introduction
           icon: 
           icon_pack:
@@ -105,8 +105,15 @@ sections:
     id: future_goal
     content:
       title: Future Goal
-      text: "being game developer"
+      cards:
+        - title: "Goal 1"
+          text: "Become a game developer."
+        - title: "Goal 2"
+          text: "Master AI technologies."
+        - title: "Goal 3"
+          text: "Build my own game."
     design:
       # Choose a layout view
       view: community/card1
+      columns: 3
 ---
