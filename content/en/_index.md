@@ -32,7 +32,7 @@ sections:
           parallax: false
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
-          opacity: 1.0  
+          opacity: 0.7 
 
 
   - block: features
@@ -99,7 +99,7 @@ sections:
         - name: Artificial inteilligence
           icon: code
           icon_pack:
-      view: community/card2
+      view: views/card2
       columns: 1
 
 
