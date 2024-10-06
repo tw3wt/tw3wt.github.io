@@ -42,8 +42,7 @@ sections:
       text: This is my cs experience.
       filters:
         folders:
-          - Algorithm
-          - Artificial Intelligence
+          - experience
     desgin:
       view: community/card2
       columns: 6
