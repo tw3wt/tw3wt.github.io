@@ -38,7 +38,7 @@ sections:
   - block: features
     id: experience
     content:
-      title: Experience
+      title: My CS Experience
       text: This is my cs experience.
       image: avatar.jpg
       items:
