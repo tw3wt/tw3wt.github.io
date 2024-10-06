@@ -50,7 +50,7 @@ sections:
           - experience3-1
     desgin:
       view: community/card2
-      columns: 6
+      columns: 5
 
 
   - block: features
