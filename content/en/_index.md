@@ -32,7 +32,7 @@ sections:
           parallax: false
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
-          opacity: 0.5  # 투명도 조절
+          opacity: 0.8  # 투명도 조절
 
 
   - block: features
