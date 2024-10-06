@@ -101,6 +101,8 @@ sections:
           icon_pack:
       view: community/card2
       columns: 1
+
+      
   - block: markdown
     id: future_goal
     content:

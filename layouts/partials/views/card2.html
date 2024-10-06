@@ -1,9 +1,12 @@
-<div class="card" style="position: relative; width: 18rem;">
-    <img src="background.jpg" alt="Background Image" style="width: 100%; border-radius: 10px;">
-    <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.5); color: white; padding: 20px;">
-      <h5 class="card-title">Overlay Title</h5>
-      <p class="card-text">This text appears over the image.</p>
-      <a href="#" class="btn btn-light">Learn more</a>
+<div class="card-container" style="display: flex; justify-content: space-between;">
+  {{ range .Params.content.cards }}
+  <div class="card" style="width: 30%; border: 1px solid #ddd; padding: 20px; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <img src="{{ .image }}" alt="{{ .title }}" style="width: 100%; border-radius: 10px;">
+    <div class="card-body" style="padding: 15px;">
+      <h5 class="card-title">{{ .title }}</h5>
+      <p class="card-text">{{ .text }}</p>
     </div>
   </div>
+  {{ end }}
+</div>
   
