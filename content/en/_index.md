@@ -43,6 +43,8 @@ sections:
       filters:
         folders:
           - experience
+            - Algorithm
+            - Artificial Intelligence
     desgin:
       view: views/card2.html
       columns: 6
