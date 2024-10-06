@@ -108,7 +108,7 @@ sections:
     id: future_goal
     content:
       title: Future Goal
-      s:
+      items:
         - title: "Goal 1"
           text: "Become a game developer."
         - title: "Goal 2"
