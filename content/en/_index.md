@@ -104,7 +104,7 @@ sections:
       columns: 5
 
 
-  - block: markdown
+  - block: features
     id: future_goal
     content:
       title: Future Goal
