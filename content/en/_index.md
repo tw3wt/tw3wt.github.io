@@ -100,7 +100,7 @@ sections:
           icon: code
           icon_pack:
     desgin:
-      view: views/card2
+      view: views/card2.html
       columns: 5
 
 
