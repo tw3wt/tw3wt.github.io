@@ -101,7 +101,7 @@ sections:
           icon_pack:
     desgin:
       view: views/card2
-      columns: 1
+      columns: 5
 
 
   - block: markdown
