@@ -1,13 +1,10 @@
-<div class="card-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+<div class="card-container" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
   {{ range .Params.content.items }}
-  <div class="card" style="width: 30%; border-radius: 10px; background-color: #fff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden; margin-bottom: 20px;">
-    <div class="card-body" style="padding: 20px; text-align: center;">
+  <div class="card" style="width: 30%; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px; text-align: center;">
+    <div style="margin-bottom: 10px;">
       <i class="{{ .icon_pack }} fa-{{ .icon }}" style="font-size: 40px; color: #3498db;"></i>
-      <h5 class="card-title" style="margin-top: 10px;">{{ .name }}</h5>
     </div>
+    <h5 style="font-weight: bold;">{{ .name }}</h5>
   </div>
   {{ end }}
 </div>
-
-
-  
