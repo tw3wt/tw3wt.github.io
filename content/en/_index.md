@@ -43,7 +43,7 @@ sections:
       image: avatar.jpg
       items:
         - name: C
-          icon: code-branch
+          icon: 
           icon_pack: fas
         - name: CS introduction
           icon: 

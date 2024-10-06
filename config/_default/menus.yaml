@@ -10,7 +10,7 @@ main:
   - name: Experience
     url: /#experience
     weight: 150
-  - name: future_goal
+  - name: Future_goal
     url: /#future_goal
     weight: 200
   - name: Projects
