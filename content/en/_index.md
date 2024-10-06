@@ -26,13 +26,13 @@ sections:
           # Add your image background to `assets/media/`.
           filename: background.jpg
           filters:
-            brightness: 1.0
+            brightness: 0.7
           size: cover
           position: center
           parallax: false
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
-          opacity: 0.8  # 투명도 조절
+          opacity: 1.0  
 
 
   - block: features
