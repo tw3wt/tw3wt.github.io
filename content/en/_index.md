@@ -40,9 +40,11 @@ sections:
   - block: markdown
     id: future_goal
     content:
-      title: Recent News
+      title: future goal
       text: ''
     design:
       # Choose a layout view
-      view: community/card2
+      view: community/card1
+      spacing:
+        padding: [0, 0, 0, 0]
 ---
