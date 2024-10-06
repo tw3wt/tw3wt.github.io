@@ -99,6 +99,7 @@ sections:
         - name: Artificial inteilligence
           icon: code
           icon_pack:
+    desgin:
       view: views/card2
       columns: 1
 
@@ -116,6 +117,6 @@ sections:
           text: "Build my own game."
     design:
       # Choose a layout view
-      view: community/card1
+      view: views/card1
       columns: 1
 ---
