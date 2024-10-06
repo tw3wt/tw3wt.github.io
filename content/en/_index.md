@@ -102,12 +102,12 @@ sections:
       view: community/card2
       columns: 1
 
-      
+
   - block: markdown
     id: future_goal
     content:
       title: Future Goal
-      cards:
+      items:
         - title: "Goal 1"
           text: "Become a game developer."
         - title: "Goal 2"
@@ -117,5 +117,5 @@ sections:
     design:
       # Choose a layout view
       view: community/card1
-      columns: 3
+      columns: 1
 ---
