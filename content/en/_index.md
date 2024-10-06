@@ -24,27 +24,89 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: background.jpg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
-  - block: markdown
+        overlay:  # 오버레이 추가
+          color: '#ffffff'  # 흰색
+          opacity: 0.5  # 투명도 조절
+
+
+  - block: features
     id: experience
     content:
-      text: "111"
-    design:
+      title: Experience
+      text: This is my cs experience.
+      image: avatar.jpg
+      items:
+        - name: C
+          icon: code-branch
+          icon_pack: fas
+        - name: CS introduction
+          icon: 
+          icon_pack:
+        - name: C++
+          icon:
+          icon_pack:
+        - name: Linux
+          icon:
+          icon_pack:
+        - name: Logic Design
+          icon:
+          icon_pack:
+        - name: OOP
+          icon:
+          icon_pack:
+        - name: Data Structure
+          icon:
+          icon_pack:
+        - name: Linear Algebra
+          icon:
+          icon_pack:
+        - name: Probability & Statistics
+          icon:
+          icon_pack:
+        - name: Mobile Programming
+          icon:
+          icon_pack:
+        - name: Data Communications
+          icon:
+          icon_pack:
+        - name: Discrete Mathematics
+          icon:
+          icon_pack:
+        - name: Computer Architecture
+          icon:
+          icon_pack:
+        - name: Algorithm
+          icon:
+          icon_pack:
+        - name: Numerical Analysis
+          icon:
+          icon_pack:
+        - name: Database
+          icon:
+          icon_pack:
+        - name: PL
+          icon:
+          icon_pack:
+        - name: Network
+          icon:
+          icon_pack:
+        - name: Artificial inteilligence
+          icon:
+          icon_pack:
       view: community/card2
       columns: 1
   - block: markdown
     id: future_goal
     content:
-      title: future goal
-      text: ''
+      title: Future Goal
+      text: "being game developer"
     design:
       # Choose a layout view
       view: community/card1
-      spacing:
-        padding: [0, 0, 0, 0]
 ---
