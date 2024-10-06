@@ -42,7 +42,7 @@ sections:
       text: This is my cs experience.
       filters:
         folders:
-          - experience
+          - experience/Algorithm
     desgin:
       view: community/card2
       columns: 6
