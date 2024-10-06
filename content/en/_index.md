@@ -35,73 +35,17 @@ sections:
           opacity: 0.7 
 
 
-  - block: features
+  - block: collection
     id: experience
     content:
       title: My CS Experience
       text: This is my cs experience.
-      image: avatar.jpg
-      items:
-        - name: C
-          icon: code
-          icon_pack: fab
-        - name: CS introduction
-          icon: code
-          icon_pack:
-        - name: C++
-          icon: code
-          icon_pack:
-        - name: Linux
-          icon: code
-          icon_pack:
-        - name: Logic Design
-          icon: code
-          icon_pack:
-        - name: OOP
-          icon: code
-          icon_pack:
-        - name: Data Structure
-          icon: code
-          icon_pack:
-        - name: Linear Algebra
-          icon: code
-          icon_pack:
-        - name: Probability & Statistics
-          icon: code
-          icon_pack:
-        - name: Mobile Programming
-          icon: code 
-          icon_pack:
-        - name: Data Communications
-          icon: code
-          icon_pack:
-        - name: Discrete Mathematics
-          icon: code
-          icon_pack:
-        - name: Computer Architecture
-          icon: code
-          icon_pack:
-        - name: Algorithm
-          icon: code
-          icon_pack:
-        - name: Numerical Analysis
-          icon: code
-          icon_pack:
-        - name: Database
-          icon: code
-          icon_pack:
-        - name: PL
-          icon: code
-          icon_pack:
-        - name: Network
-          icon: code
-          icon_pack:
-        - name: Artificial inteilligence
-          icon: code
-          icon_pack:
+      filters:
+        folders:
+          - experience
     desgin:
       view: views/card2.html
-      columns: 5
+      columns: 6
 
 
   - block: features
