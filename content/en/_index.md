@@ -43,61 +43,61 @@ sections:
       image: avatar.jpg
       items:
         - name: C
-          icon: 
+          icon: code
           icon_pack: fab
         - name: CS introduction
-          icon: 
+          icon: code
           icon_pack:
         - name: C++
-          icon:
+          icon: code
           icon_pack:
         - name: Linux
-          icon:
+          icon: code
           icon_pack:
         - name: Logic Design
-          icon:
+          icon: code
           icon_pack:
         - name: OOP
-          icon:
+          icon: code
           icon_pack:
         - name: Data Structure
-          icon:
+          icon: code
           icon_pack:
         - name: Linear Algebra
-          icon:
+          icon: code
           icon_pack:
         - name: Probability & Statistics
-          icon:
+          icon: code
           icon_pack:
         - name: Mobile Programming
-          icon:
+          icon: code 
           icon_pack:
         - name: Data Communications
-          icon:
+          icon: code
           icon_pack:
         - name: Discrete Mathematics
-          icon:
+          icon: code
           icon_pack:
         - name: Computer Architecture
-          icon:
+          icon: code
           icon_pack:
         - name: Algorithm
-          icon:
+          icon: code
           icon_pack:
         - name: Numerical Analysis
-          icon:
+          icon: code
           icon_pack:
         - name: Database
-          icon:
+          icon: code
           icon_pack:
         - name: PL
-          icon:
+          icon: code
           icon_pack:
         - name: Network
-          icon:
+          icon: code
           icon_pack:
         - name: Artificial inteilligence
-          icon:
+          icon: code
           icon_pack:
       view: community/card2
       columns: 1
@@ -107,7 +107,7 @@ sections:
     id: future_goal
     content:
       title: Future Goal
-      items:
+      s:
         - title: "Goal 1"
           text: "Become a game developer."
         - title: "Goal 2"

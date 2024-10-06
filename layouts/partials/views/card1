@@ -1,10 +1,8 @@
-<div class="card-container" style="display: flex; justify-content: space-between;">
-  {{ range .Params.content.cards }}
-  <div class="card" style="width: 30%; border: 1px solid #ddd; padding: 20px; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <div class="card-body" style="padding: 15px;">
-      <h5 class="card-title">{{ .title }}</h5>
-      <p class="card-text">{{ .text }}</p>
-    </div>
+<div class="card-container" style="display: flex; flex-wrap: wrap; gap: 15px;">
+  {{ range .Params.content.items }}
+  <div class="card" style="flex: 1 1 30%; border: 1px solid #ddd; padding: 20px; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center;">
+    <i class="{{ .icon_pack }} fa-{{ .icon }}" style="font-size: 40px; color: #3498db;"></i> <!-- 아이콘 표시 -->
+    <h5>{{ .name }}</h5>
   </div>
   {{ end }}
 </div>
