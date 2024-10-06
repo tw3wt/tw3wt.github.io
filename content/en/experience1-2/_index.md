@@ -1,6 +1,4 @@
 ---
-title: 1-1
-
-# Listing view
+title: 1-2
 view: community/card2
 ---
