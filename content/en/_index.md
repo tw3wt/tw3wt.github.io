@@ -36,11 +36,11 @@ sections:
 
 
   - block: collection
-    id: experience
     content:
+      id: experience
       title: My CS Experience
       text: This is my cs experience.
-      count: 5
+      count: 3
       filters:
         folders:
           - experience1-1
