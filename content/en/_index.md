@@ -36,8 +36,8 @@ sections:
 
 
   - block: collection
-    content:
-      id: experience
+    id: experience
+    content:  
       title: My CS Experience
       text: This is my cs experience.
       count: 3
@@ -45,7 +45,7 @@ sections:
         folders:
           - experience3-1
     desgin:
-      view: views/community/card2.html
+      view: views/community/card1.html
       columns: '5'
 
 
