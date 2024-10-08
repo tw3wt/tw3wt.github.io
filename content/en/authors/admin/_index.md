@@ -32,7 +32,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:twtw136@jbnu.ac.kr'
+    link: 'twtw136@jbnu.ac.kr'
     label: E-mail Me
   - icon: instagram
     icon_pack: fab
@@ -45,6 +45,7 @@ social:
     icon_pack: ai
     link: uploads/cloud.pdf
 
+email: 'twtw136@jbnu.ac.kr'
 
 interests:
   - Artificial Intelligence
