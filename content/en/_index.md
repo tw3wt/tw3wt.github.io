@@ -34,6 +34,62 @@ sections:
           color: '#ffffff'  # 흰색
           opacity: 0.7 
 
+  - block: slider
+    content:
+      slides:
+
+      - title: My advantages
+        content: These are my advantages
+        align: center
+        background: 
+          image:
+            filename: advantage.jpg
+            filters:
+              brightness: 0.4
+          position: center
+
+      - title: Linux Development
+        content: Developing S/W that connects front and back in real time
+        align: center
+        background:
+            image:
+              filename: linux_slide.jpg
+              filters:
+                brightness: 1
+            overlay:
+              color: '#0000ff'
+              opacity: 0.5
+            position: center
+            color: '#0000ff'
+
+      - title: Mobile & DB
+        content: Developing mobile app with database
+        align: center
+        background:
+            image:
+              filename: mobile_slide.jpg
+              filters:
+                brightness: 1
+            overlay:
+              color: '#0000ff'
+              opacity: 0.5
+            position: center
+            color: '#0000ff'
+
+      - title: Web dev
+        content: Front-side web development
+        align: center
+        background:
+            image:
+              filename: web_slide.jpg
+              filters:
+                brightness: 1
+            overlay:
+              color: '#0000ff'
+              opacity: 0.5
+            position: center
+            color: '#0000ff'
+
 
   - block: collection
     id: experience
