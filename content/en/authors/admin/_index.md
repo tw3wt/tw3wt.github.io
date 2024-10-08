@@ -32,7 +32,7 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'twtw136@jbnu.ac.kr'
+    link: 'mailto:twtw136@jbnu.ac.kr'
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/wjdtao_0612/
