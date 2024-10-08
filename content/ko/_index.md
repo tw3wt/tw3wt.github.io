@@ -40,7 +40,8 @@ sections:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: card
+      
   - block: collection
     id: experience
     content:

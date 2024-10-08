@@ -9,8 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
-
-  - block: resume-biography-3
+  - block: people
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -36,7 +35,7 @@ sections:
           opacity: 0.7 
   
 
-  - block: markdown
+  - block: slider
     content:
       slides:
 
