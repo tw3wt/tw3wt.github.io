@@ -49,7 +49,7 @@ sections:
           - experience2-2
           - experience3-1
     desgin:
-      view: community/card2
+      view: community/custom_card
       columns: '2'
 
 
