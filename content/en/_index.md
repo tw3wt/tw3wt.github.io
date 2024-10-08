@@ -45,8 +45,8 @@ sections:
         folders:
           - exp
     desgin:
-      view: card
-      columns: '5'
+      view: article-grid
+      columns: '1'
 
 
   - block: features
