@@ -15,10 +15,9 @@ sections:
       user_groups:
         - admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
       button:
         text: See Profile
-        url: /정태우
+        url: /author/정태우
     design:
       css_class: dark
       background:

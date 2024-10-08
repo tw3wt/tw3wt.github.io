@@ -38,6 +38,14 @@ profiles:
   - icon: brands/github
     url: https://github.com/tw3wt
 
+  - icon: cv
+    icon_pack: fab
+    link: uploads/cloud.pdf
+  
+  - icon: cv
+    icon_pack: ai
+    link: author/정태우
+
 interests:
   - Artificial Intelligence
   - Computational Linguistics
