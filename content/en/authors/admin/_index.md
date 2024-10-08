@@ -32,22 +32,19 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    url: 'mailto:twtw136@jbnu.ac.kr'
+    link: 'mailto:twtw136@jbnu.ac.kr'
     label: E-mail Me
   - icon: instagram
     icon_pack: fab
-    url: https://www.instagram.com/wjdtao_0612/
+    link: https://www.instagram.com/wjdtao_0612/
   - icon: github
     icon_pack: fab
-    url: https://github.com/tw3wt
+    link: https://github.com/tw3wt
 
   - icon: cv
     icon_pack: ai
     link: uploads/cloud.pdf
-  
-  - icon: profile
-    icon_pack: fab
-    url: author/정태우
+
 
 interests:
   - Artificial Intelligence
