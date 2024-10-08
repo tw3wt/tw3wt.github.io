@@ -21,7 +21,7 @@ main:
     weight: 300
   - name: Contact
     url: contact/
-    weight: 400
+    weight: 350
   - name: Framework
     identifier: framework
     parent: skill

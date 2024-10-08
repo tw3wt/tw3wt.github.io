@@ -17,8 +17,8 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download pdf file
-        url: uploads/cloud.pdf
+        text: See Profile
+        url: /정태우
     design:
       css_class: dark
       background:
