@@ -1,5 +1,6 @@
 ---
 title: C
+view: community/card2
 icon: app-store-ios
 icon_pack: fab
 summary: "This is a brief summary of the C."
