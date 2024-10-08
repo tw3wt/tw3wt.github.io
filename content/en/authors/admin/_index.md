@@ -41,7 +41,7 @@ social:
     link: https://github.com/tw3wt
   - icon: cv
     icon_pack: ai
-    link: en/uploads/cloud.pdf
+    link: uploads/cloud.pdf
 
 email: 'twtw136@jbnu.ac.kr'
 
