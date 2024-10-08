@@ -105,7 +105,7 @@ sections:
           - experience2-2
           - experience3-1
     desgin:
-      view: card
+      view: community/card2
       columns: '2'
 
 
