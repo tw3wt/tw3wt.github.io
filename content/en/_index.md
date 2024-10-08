@@ -49,7 +49,7 @@ sections:
           - experience3-1
     desgin:
       view: views/community/card2.html
-      columns: '5'
+      columns: '1'
 
 
   - block: features
