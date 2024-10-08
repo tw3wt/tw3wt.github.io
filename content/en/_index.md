@@ -40,7 +40,6 @@ sections:
     content:  
       title: My CS Experience
       text: This is my cs experience.
-      count: 3
       filters:
         folders:
           - experience1-1
