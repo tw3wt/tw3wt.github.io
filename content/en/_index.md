@@ -43,7 +43,7 @@ sections:
       count: 3
       filters:
         folders:
-          - experience3-1
+          - exp
     desgin:
       view: card
       columns: '5'
