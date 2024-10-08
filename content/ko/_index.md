@@ -104,7 +104,8 @@ sections:
 
   - block: collection
     id: experience
-    content:  
+    content:
+      id: section-1  
       title: My CS Experience
       text: This is my cs experience.
       order: desc
