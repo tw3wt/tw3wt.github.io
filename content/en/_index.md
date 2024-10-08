@@ -40,6 +40,7 @@ sections:
     content:  
       title: My CS Experience
       text: This is my cs experience.
+      order: desc
       filters:
         folders:
           - experience1-1
@@ -48,8 +49,8 @@ sections:
           - experience2-2
           - experience3-1
     desgin:
-      view: artigle-grid
-      columns: '1'
+      view: community/card2
+      columns: '2'
 
 
   - block: features
