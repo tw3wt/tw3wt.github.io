@@ -2,5 +2,5 @@
 title: Notifications
 
 # Listing view
-view: card
+view: card2
 ---
