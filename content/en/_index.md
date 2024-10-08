@@ -36,9 +36,9 @@ sections:
 
 
   - block: collection
+    id: experience
     content:  
       title: My CS Experience
-      id: experience
       text: This is my cs experience.
       filters:
         folders:
@@ -65,6 +65,6 @@ sections:
           text: "Build my own game."
     design:
       # Choose a layout view
-      view: views/card1
+      view: article-grid
       columns: 1
 ---
