@@ -48,7 +48,7 @@ sections:
           - experience2-2
           - experience3-1
     desgin:
-      view: views/community/card2.html
+      view: artigle-grid
       columns: '1'
 
 
