@@ -43,10 +43,14 @@ sections:
       count: 3
       filters:
         folders:
-          - exp
+          - experience1-1
+          - experience1-2
+          - experience2-1
+          - experience2-2
+          - experience3-1
     desgin:
-      view: article-grid
-      columns: '1'
+      view: community/card2
+      columns: '5'
 
 
   - block: features
