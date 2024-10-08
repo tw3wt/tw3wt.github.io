@@ -20,7 +20,7 @@ sections:
         align: center
         background: 
           image:
-            filename: advantage.jpg
+            filename: advantage.png
             filters:
               brightness: 0.4
           position: center
@@ -30,7 +30,7 @@ sections:
         align: center
         background:
             image:
-              filename: linux_slide.jpg
+              filename: linux_slide.png
               filters:
                 brightness: 1
             overlay:
@@ -44,7 +44,7 @@ sections:
         align: center
         background:
             image:
-              filename: mobile_slide.jpg
+              filename: mobile_slide.png
               filters:
                 brightness: 1
             overlay:
@@ -58,7 +58,7 @@ sections:
         align: center
         background:
             image:
-              filename: web_slide.jpg
+              filename: web_slide.png
               filters:
                 brightness: 1
             overlay:
