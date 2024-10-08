@@ -44,7 +44,7 @@ social:
     icon_pack: ai
     link: uploads/cloud.pdf
 
-email: 'twtw136@jbnu.ac.kr'
+email: 'taewoo136@gmail.com'
 
 interests:
   - Artificial Intelligence
