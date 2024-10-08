@@ -119,7 +119,7 @@ sections:
           - experience2-2
           - experience3-1
     desgin:
-      view: community/card2
+      view: community/card1
       columns: '2'
 
 
