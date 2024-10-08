@@ -14,7 +14,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
-      text: ""
+      text: 
       button:
         text: See Profile
         url: /author/정태우
