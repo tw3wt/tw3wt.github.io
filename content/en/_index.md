@@ -9,30 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download pdf file
-        url: uploads/cloud.pdf
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: background.jpg
-          filters:
-            brightness: 0.7
-          size: cover
-          position: center
-          parallax: false
-        overlay:  # 오버레이 추가
-          color: '#ffffff'  # 흰색
-          opacity: 0.7 
+  
 
   - block: slider
     content:
