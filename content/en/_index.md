@@ -36,18 +36,14 @@ sections:
 
 
   - block: collection
-    id: experience
     content:
+      id: experience
       title: My CS Experience
       text: This is my cs experience.
       count: 3
       filters:
         folders:
           - experience1-1
-          - experience1-2
-          - experience2-1
-          - experience2-2
-          - experience3-1
     desgin:
       view: community/card2
       columns: '5'
