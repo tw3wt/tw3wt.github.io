@@ -36,7 +36,7 @@ sections:
           opacity: 0.7 
   
 
-  - block: slider
+  - block: markdown
     content:
       slides:
 
