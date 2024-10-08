@@ -107,7 +107,9 @@ sections:
     content:
       id: section-1  
       title: My CS Experience
-      text: This is my cs experience.
+      text:
+      count: 10
+      offset: 0
       order: desc
       filters:
         folders:
