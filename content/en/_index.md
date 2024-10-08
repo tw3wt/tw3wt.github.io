@@ -45,7 +45,7 @@ sections:
         folders:
           - experience3-1
     desgin:
-      view: community/card1.html
+      view: card
       columns: '5'
 
 
