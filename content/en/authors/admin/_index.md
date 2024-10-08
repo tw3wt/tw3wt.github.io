@@ -30,21 +30,24 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:taewoo136@gmail.com'
+  - icon: envelope
+    icon_pack: fas
+    url: 'mailto:twtw136@jbnu.ac.kr'
     label: E-mail Me
-  - icon: brands/instagram
+  - icon: instagram
+    icon_pack: fab
     url: https://www.instagram.com/wjdtao_0612/
-  - icon: brands/github
+  - icon: github
+    icon_pack: fab
     url: https://github.com/tw3wt
 
   - icon: cv
-    icon_pack: fab
+    icon_pack: ai
     link: uploads/cloud.pdf
   
   - icon: cv
-    icon_pack: ai
-    link: author/정태우
+    icon_pack: fab
+    url: author/정태우
 
 interests:
   - Artificial Intelligence
