@@ -45,7 +45,7 @@ profiles:
     icon_pack: ai
     link: uploads/cloud.pdf
   
-  - icon: cv
+  - icon: profile
     icon_pack: fab
     url: author/정태우
 
