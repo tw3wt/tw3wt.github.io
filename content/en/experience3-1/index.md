@@ -1,4 +1,4 @@
 ---
 title: 3-1
-view: community/card2
+view: community/card1.html
 ---
