@@ -36,9 +36,9 @@ sections:
 
 
   - block: collection
-    id: experience
     content:  
       title: My CS Experience
+      id: experience
       text: This is my cs experience.
       filters:
         folders:
