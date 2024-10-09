@@ -18,6 +18,5 @@ sections:
           - project
     design:
       view: community/card2
-      fill_image: false
       columns: 3
 ---
