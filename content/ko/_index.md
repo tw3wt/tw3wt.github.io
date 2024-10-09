@@ -10,9 +10,9 @@ design:
 
 sections:
   - block: people
-    title: My PortFolio
-    subtitle: 사진 혹은 이름을 클릭하면 프로필로 이동합니다.
     content:
+      title: My PortFolio
+      subtitle: 사진 혹은 이름을 클릭하면 프로필로 이동합니다.
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
