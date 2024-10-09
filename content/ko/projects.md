@@ -18,5 +18,5 @@ sections:
           - project
     design:
       view: community/card2
-      columns: 3
+      columns: '3'
 ---
