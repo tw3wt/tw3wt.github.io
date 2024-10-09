@@ -53,11 +53,6 @@ interests:
 user_groups:
   - admin
 
-buttons:
-  button:
-    text: See Profile
-    url: /authors/admin
-
 ---
 ## About Me
 
