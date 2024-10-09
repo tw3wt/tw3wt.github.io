@@ -105,12 +105,52 @@ sections:
 
 
 
-  - block: collection
+  - block: features
     id: experience
-    content:
-      id: section-1  
+    content: 
       title: My CS Experience
       text:
+      items:
+        - name: C
+          description: 
+        - name: C++
+          description: 
+        - name: CS Introduction
+          description:
+        - name: Data Structure
+          description:  
+        - name: Linear Algebra
+          description: 
+        - name: Linux
+          description: 
+        - name: Logic Design
+          description: 
+        - name: OOP
+          description: 
+        - name: Algorithm
+          description: 
+        - name: Computer Architecture
+          description:
+        - name: Data Communication
+          description: 
+        - name: Discrete Mathematics
+          description: 
+        - name: Mobile
+          description:
+        - name: Probablity & Statistics
+          description:  
+        - name: Artificial Intelligence
+          description: 
+        - name: Database
+          description: 
+        - name: Network
+          description:
+        - name: Numerical Analysis
+          description: 
+        - name: OS
+          description:  
+        - name: PL
+          description: 
       count: 10
       offset: 0
       order: desc

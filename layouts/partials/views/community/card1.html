@@ -1,10 +1,36 @@
-<div class="card-container" style="display: flex; justify-content: space-between;">
-  {{ range .Params.content.cards }}
-  <div class="card" style="width: 30%; border: 1px solid #ddd; padding: 20px; margin: 10px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-    <div class="card-body" style="padding: 15px;">
-      <h5 class="card-title">{{ .title }}</h5>
-      <p class="card-text">{{ .text }}</p>
+{{ $item := .item }}
+{{ $link := $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if $item.Params.abstract }}
+  {{ $summary = $item.Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+<div class="card">
+  <!-- 아이콘 사용 -->
+  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-icon hover-overlay">
+    <i class="fas fa-user-circle fa-5x" style="margin-top: 15px;"></i> <!-- 여기에 원하는 아이콘 클래스 사용 -->
+  </a>
+  
+  <div class="card-text">
+    <div class="section-subheading article-title mb-1 mt-3">
+        <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
     </div>
+
+    {{ with $summary }}
+    <div class="article-style">
+      <p>{{ . }}</p>
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
 </div>
