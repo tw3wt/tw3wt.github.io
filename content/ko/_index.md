@@ -14,10 +14,8 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
-      text: 
-      cta:
-        cta_text: See profile
-        cta_link: /author/정태우
+      text: |
+        {{% cta cta_link="/author/정태우" cta_text="See Research Field →" %}}
     design:
       css_class: dark
       background:
