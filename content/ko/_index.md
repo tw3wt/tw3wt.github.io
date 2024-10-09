@@ -16,8 +16,8 @@ sections:
         - admin
       text: 
       cta:
-        cta_text: "See profile"
-        cta_link: "/author/정태우"
+        cta_text: See profile
+        cta_link: /author/정태우
         cta_new_tab: false     
     design:
       css_class: dark
