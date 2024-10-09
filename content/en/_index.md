@@ -11,14 +11,16 @@ design:
 sections:
   - block: people
     content:
+      title: My PortFolio
+      subtitle: Click photo or name to check profile.
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
-      text: ""
-      button:
-        text: See Profile
-        url: /author/정태우
+      text: 
     design:
+      show_interests: false
+      show_role: true
+      show_social: true
       css_class: dark
       background:
         color: white
@@ -33,6 +35,7 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.7 
+
   
 
   - block: slider
@@ -102,22 +105,55 @@ sections:
 
 
 
-  - block: collection
+  - block: features
     id: experience
-    content:  
+    content: 
       title: My CS Experience
-      text: This is my cs experience.
-      order: desc
-      filters:
-        folders:
-          - experience1-1
-          - experience1-2
-          - experience2-1
-          - experience2-2
-          - experience3-1
+      text:
+      items:
+        - name: C
+          description: 
+        - name: C++
+          description: 
+        - name: CS Introduction
+          description:
+        - name: Data Structure
+          description:  
+        - name: Linear Algebra
+          description: 
+        - name: Linux
+          description: 
+        - name: Logic Design
+          description: 
+        - name: OOP
+          description: 
+        - name: Algorithm
+          description: 
+        - name: Computer Architecture
+          description:
+        - name: Data Communication
+          description: 
+        - name: Discrete Mathematics
+          description: 
+        - name: Mobile
+          description:
+        - name: Probablity & Statistics
+          description:  
+        - name: Artificial Intelligence
+          description: 
+        - name: Database
+          description: 
+        - name: Network
+          description:
+        - name: Numerical Analysis
+          description: 
+        - name: OS
+          description:  
+        - name: PL
+          description: 
     desgin:
-      view: community/card2
-      columns: '2'
+      view: community/card1
+      columns: '3'
 
 
   - block: features
@@ -126,13 +162,25 @@ sections:
       title: Future Goal
       items:
         - name: "Goal 1"
-          text: "Become a game developer."
+          description: "Become a game developer."
         - name: "Goal 2"
-          text: "Master AI technologies."
+          description: "Master AI technologies."
         - name: "Goal 3"
-          text: "Build my own game."
+          description: "Build my own game."
     design:
       # Choose a layout view
       view: article-grid
       columns: 1
+  
+  - block: collection
+    id: projects
+    content:
+      title: My Projects
+      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      filters:
+        folders:
+          - project
+    design:
+      view: community/card2
+      columns: '1'
 ---

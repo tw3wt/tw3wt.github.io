@@ -12,10 +12,10 @@ design:
 sections:
   - block: markdown
     content:
-      title: 학습한 프레임워크들
-      text: 학교 및 자기계발 등으로 배우게 된 프레임워크들에 대한 내용들입니다.
+      title: Learned frameworks
+      text: These are the contents of the frameworks learned from school and self-development.
     design:
-      view: card
+      view: community/card1
       fill_image: false
-      columns: 3
+      columns: '1'
 ---
