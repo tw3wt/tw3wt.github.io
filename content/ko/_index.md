@@ -19,9 +19,9 @@ sections:
         text: See Profile
         url: /author/정태우
     design:
-      css_class: light
+      css_class: dark
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
           filename: background.png
