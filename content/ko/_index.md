@@ -14,11 +14,9 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
-      text: 
-      button:
-        enable: true
-        text: See Profile
-        url: author/정태우
+      text: |
+        <a href="author/정태우" class="btn btn-primary">See profile</a>
+
     design:
       show_interests: false
       show_role: true
