@@ -33,6 +33,10 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.7 
+        show_interests: false
+        show_role: true
+        show_social: true
+
   
 
   - block: slider
