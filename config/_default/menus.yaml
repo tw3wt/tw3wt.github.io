@@ -14,7 +14,8 @@ main:
     url: /#future_goal
     weight: 200
   - name: Projects
-    url: projects/
+    url: /#projects
+    identifier: projects
     weight: 250
   - name: Skill
     identifier: skill
@@ -22,13 +23,23 @@ main:
   - name: Contact
     url: contact/
     weight: 350
+  - name: Database_project
+    parent: projects
+    url: database/
+    weight: 50  
+  - name: Mobile_project
+    parent: projects
+    url: mobile/
+    weight: 100
+  - name: Linux_project
+    parent: projects
+    url: linux/
+    weight: 150
   - name: Framework
-    identifier: framework
     parent: skill
     url: framework/
-    weight: 100
+    weight: 200
   - name: Programming_language
-    identifier: programming_language
     parent: skill
     url: programming_language/
-    weight: 200
+    weight: 250
