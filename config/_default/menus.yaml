@@ -15,7 +15,6 @@ main:
     weight: 200
   - name: Projects
     url: /#projects
-    identifier: projects
     weight: 250
   - name: Skill
     identifier: skill
@@ -23,18 +22,6 @@ main:
   - name: Contact
     url: contact/
     weight: 350
-  - name: Database_project
-    parent: projects
-    url: database/
-    weight: 50  
-  - name: Mobile_project
-    parent: projects
-    url: mobile/
-    weight: 100
-  - name: Linux_project
-    parent: projects
-    url: linux/
-    weight: 150
   - name: Framework
     parent: skill
     url: framework/
