@@ -19,6 +19,9 @@ sections:
         text: See Profile
         url: /author/정태우
     design:
+      show_interests: false
+      show_role: true
+      show_social: true
       css_class: dark
       background:
         color: white
@@ -33,10 +36,6 @@ sections:
         overlay:  # 오버레이 추가
           color: '#ffffff'  # 흰색
           opacity: 0.7 
-        show_interests: false
-        show_role: true
-        show_social: true
-        show_buttons: true
 
   
 
