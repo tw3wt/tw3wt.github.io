@@ -151,19 +151,9 @@ sections:
           description:  
         - name: PL
           description: 
-      count: 10
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - experience1-1
-          - experience1-2
-          - experience2-1
-          - experience2-2
-          - experience3-1
     desgin:
       view: community/card1
-      columns: '2'
+      columns: '3'
 
 
   - block: features
@@ -181,4 +171,16 @@ sections:
       # Choose a layout view
       view: article-grid
       columns: 1
+  
+  - block: collection
+    id: projects
+    content:
+      title: My Projects
+      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      filters:
+        folders:
+          - project
+    design:
+      view: community/card2
+      columns: '1'
 ---
