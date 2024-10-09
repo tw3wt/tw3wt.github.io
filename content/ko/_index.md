@@ -16,9 +16,6 @@ sections:
         - admin
       text: |
         {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
-      button:
-        text: See Profile
-        url: /author/정태우
     design:
       show_interests: false
       show_role: true
