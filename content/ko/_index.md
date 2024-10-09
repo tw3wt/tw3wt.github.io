@@ -183,4 +183,13 @@ sections:
     design:
       view: community/card2
       columns: '1'
+
+  - block: markdown
+    content:
+      title:
+      subtitle:
+      text: |
+        {{% cta cta_link="contact/" cta_text="Contact" %}}
+    design:
+      columns: '1'
 ---
