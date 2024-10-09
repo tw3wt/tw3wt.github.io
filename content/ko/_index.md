@@ -21,6 +21,7 @@ sections:
       show_role: true
       show_social: true
       css_class: dark
+      align: bottom
       background:
         color: white
         image:
