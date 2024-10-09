@@ -15,6 +15,7 @@ sections:
       user_groups:
         - admin
       text: |
+        버튼이나 사진을 클릭하면 프로필을 볼 수 있습니다.
         <a href="author/정태우" class="btn btn-primary">See profile</a>
 
     design:
