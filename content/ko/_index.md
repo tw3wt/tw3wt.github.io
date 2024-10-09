@@ -10,20 +10,18 @@ design:
 
 sections:
   - block: people
+    title: My PortFolio
+    subtitle: 사진 혹은 이름을 클릭하면 프로필로 이동합니다.
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
-      text: |
-        버튼이나 사진을 클릭하면 프로필을 볼 수 있습니다.
-        <a href="author/정태우" class="btn btn-primary">See profile</a>
-
+      text: 
     design:
       show_interests: false
       show_role: true
       show_social: true
       css_class: dark
-      align: right
       background:
         color: white
         image:
