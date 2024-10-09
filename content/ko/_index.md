@@ -14,14 +14,16 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       user_groups:
         - admin
-      text: |
-        {{% cta cta_link="./field/" cta_text="See Research Field →" %}}
+      text: 
+      button:
+        enable: true
+        text: See Profile
+        url: author/정태우
     design:
       show_interests: false
       show_role: true
       show_social: true
       css_class: dark
-      align: bottom
       background:
         color: white
         image:
