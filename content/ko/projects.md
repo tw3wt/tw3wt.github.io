@@ -17,7 +17,7 @@ sections:
         folders:
           - project
     design:
-      view: card
+      view: community/card2
       fill_image: false
       columns: 3
 ---
