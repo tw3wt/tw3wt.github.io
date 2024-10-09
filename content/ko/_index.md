@@ -23,6 +23,7 @@ sections:
       show_role: true
       show_social: true
       css_class: dark
+      align: right
       background:
         color: white
         image:
