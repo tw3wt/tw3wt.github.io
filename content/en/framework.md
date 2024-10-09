@@ -10,12 +10,18 @@ design:
 
 # Page sections
 sections:
-  - block: markdown
+  - block: features
     content:
       title: Learned frameworks
       text: These are the contents of the frameworks learned from school and self-development.
+      items:
+        - name: Android Studio
+          description:
+        - name: Mysql
+          description:
+
     design:
-      view: community/card1
+      view: article-grid
       fill_image: false
       columns: '1'
 ---

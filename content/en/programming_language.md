@@ -14,8 +14,19 @@ sections:
     content:
       title: Learned programming languages
       text: These are the contents of the programming languages learned from school and self-development.
+      items:
+        - name: C
+          description:
+        - name: C++
+          description:
+        - name: JAVA
+          description:
+        - name: Python
+          description:
+        - name: Kotlin
+          description:
     design:
-      view: community/card1
+      view: article-gird
       fill_image: false
       columns: 3
 ---
